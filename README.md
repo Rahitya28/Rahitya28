@@ -134,9 +134,9 @@ I enjoy building scalable web applications, solving Data Structures & Algorithms
 
 # 🏆 Certifications
 
-✅ **AWS Cloud Practitioner** <br/>
-✅ **MongoDB Associate Developer** <br/>
-✅ **Oracle Java Foundations** <br/>
+✅ **SAP Generative AI Developer** – SAP <br/>
+✅ **MongoDB Associate Developer** – MongoDB <br/>
+✅ **Oracle Certified Professional: Java SE 17 Developer** – Oracle University <br/>
 
 ---
 
