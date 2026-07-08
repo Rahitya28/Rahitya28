@@ -143,12 +143,12 @@ I enjoy building scalable web applications, solving Data Structures & Algorithms
 # 📈 GitHub Statistics
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Rahitya28&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rahitya28&layout=compact&theme=radical&hide_border=true&bg_color=0d1117"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Rahitya28&show_icons=true&theme=dark&hide_border=true&bg_color=000000"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rahitya28&layout=compact&theme=dark&hide_border=true&bg_color=000000"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rahitya28&theme=radical&hide_border=true&background=0d1117"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rahitya28&theme=dark&hide_border=true&background=000000"/>
 </p>
 
 ---
@@ -156,7 +156,7 @@ I enjoy building scalable web applications, solving Data Structures & Algorithms
 # 📊 GitHub Activity Graph
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Rahitya28&theme=radical&bg_color=0d1117&hide_border=true"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Rahitya28&theme=react-dark&bg_color=000000&hide_border=true"/>
 </p>
 
 ---

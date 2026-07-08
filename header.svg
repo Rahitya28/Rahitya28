@@ -10,44 +10,29 @@
           height: 100%;
           width: 100%;
           font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-          background-color: #0d1117;
-          border: 1px solid #30363d;
+          background-color: #000000;
+          border: 1px solid #1a1a1a;
           border-radius: 12px;
-          color: #c9d1d9;
+          color: #ffffff;
           text-align: center;
-          box-shadow: inset 0 0 20px rgba(0,0,0,0.5);
         }
 
         .name {
           font-size: 3rem;
           font-weight: 800;
           margin-bottom: 0.5rem;
-          background: linear-gradient(90deg, #58a6ff, #3fb950);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
+          color: #ffffff;
           letter-spacing: -1px;
         }
 
         .subtitle {
           font-size: 1.2rem;
-          color: #8b949e;
+          color: #a0a0a0;
           font-weight: 500;
           letter-spacing: 0.5px;
         }
-
-        .glow {
-          position: absolute;
-          width: 150px;
-          height: 150px;
-          background: rgba(88, 166, 255, 0.15);
-          filter: blur(50px);
-          border-radius: 50%;
-          top: -50px;
-          left: -50px;
-        }
       </style>
       <div class="wrapper">
-        <div class="glow"></div>
         <div class="name">Hi, I'm Rahitya Chennam 👋</div>
         <div class="subtitle">B.Tech CSE Student | Full Stack Developer | ML Enthusiast</div>
       </div>
