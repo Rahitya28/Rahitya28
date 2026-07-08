@@ -1,40 +1,104 @@
-<svg fill="none" viewBox="0 0 800 200" width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 800 250" width="800" height="250" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
-        .wrapper {
+        .container {
+          position: relative;
+          width: 100%;
+          height: 100%;
           display: flex;
           flex-direction: column;
           align-items: center;
           justify-content: center;
-          height: 100%;
-          width: 100%;
           font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-          background-color: #000000;
-          border: 1px solid #1a1a1a;
+          background: #0d1117;
+          border: 1px solid rgba(255, 255, 255, 0.1);
           border-radius: 12px;
-          color: #ffffff;
+          overflow: hidden;
+        }
+        
+        .background-grid {
+          position: absolute;
+          top: 0; left: 0; right: 0; bottom: 0;
+          background-image: 
+            linear-gradient(to right, rgba(255,255,255,0.03) 1px, transparent 1px),
+            linear-gradient(to bottom, rgba(255,255,255,0.03) 1px, transparent 1px);
+          background-size: 25px 25px;
+          z-index: 1;
+        }
+
+        .gradient-orb {
+          position: absolute;
+          width: 400px;
+          height: 400px;
+          background: radial-gradient(circle, rgba(163, 113, 247, 0.15) 0%, rgba(0,0,0,0) 70%);
+          top: -150px;
+          left: 50%;
+          transform: translateX(-50%);
+          z-index: 2;
+        }
+
+        .content {
+          position: relative;
+          z-index: 3;
           text-align: center;
         }
 
+        .greeting {
+          font-size: 1rem;
+          color: #a371f7;
+          font-weight: 600;
+          margin-bottom: 8px;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+        }
+
         .name {
-          font-size: 3rem;
+          font-size: 3.5rem;
           font-weight: 800;
-          margin-bottom: 0.5rem;
+          margin: 0;
           color: #ffffff;
-          letter-spacing: -1px;
+          letter-spacing: -1.5px;
         }
 
         .subtitle {
-          font-size: 1.2rem;
-          color: #a0a0a0;
-          font-weight: 500;
+          font-size: 1.1rem;
+          color: #8b949e;
+          margin-top: 12px;
+          font-weight: 400;
           letter-spacing: 0.5px;
         }
+        
+        .badges {
+          margin-top: 22px;
+          display: flex;
+          gap: 12px;
+          justify-content: center;
+        }
+        
+        .badge {
+          background: rgba(255, 255, 255, 0.04);
+          border: 1px solid rgba(255, 255, 255, 0.08);
+          padding: 6px 16px;
+          border-radius: 20px;
+          color: #c9d1d9;
+          font-size: 0.85rem;
+          font-weight: 500;
+        }
       </style>
-      <div class="wrapper">
-        <div class="name">Hi, I'm Rahitya Chennam 👋</div>
-        <div class="subtitle">B.Tech CSE Student | Full Stack Developer | ML Enthusiast</div>
+      <div class="container">
+        <div class="background-grid"></div>
+        <div class="gradient-orb"></div>
+        <div class="content">
+          <div class="greeting">Welcome to my profile</div>
+          <h1 class="name">Rahitya Chennam</h1>
+          <div class="subtitle">Building scalable web applications &amp; exploring AI</div>
+          <div class="badges">
+            <div class="badge">B.Tech CSE</div>
+            <div class="badge">Full Stack Developer</div>
+            <div class="badge">Machine Learning</div>
+          </div>
+        </div>
       </div>
     </div>
   </foreignObject>
